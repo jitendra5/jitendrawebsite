@@ -1,0 +1,523 @@
+<html>
+        <head>
+            <script src="./js/jquery-3.3.1.min.js"></script>
+            <link href="./css/bootstrap.min.css" rel="stylesheet" />
+            <link href="./css/fonts.css" rel="stylesheet" />
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <!-- <link rel="stylesheet" href="./css/font-awesome.min.css"> -->
+            <link rel="stylesheet" href="./css/animate.min.css">
+            <link href="./css/font1.css" rel="stylesheet">
+            <link rel="stylesheet" href="./css/mysite.css">
+            <script src="./js/bootstrap.min.js" ></script>
+            <script src="./js/bootstrap.bundle.min.js" ></script>
+                        
+                        <script type="text/javascript">
+                            function loadSkills() {
+                              var skBar1 = $('.skill');
+                              for (var i = 0; i < skBar1.length; i++) {
+                                skBar1[i].childNodes[7].style.width = '0%';
+                              }
+                        
+                              var skillbar= $('.skill-bar');
+                              for(var i=0;i<skillbar.length;i++){
+                                skillbar[i].childNodes[0].style.width='0%';
+                                }
+                              setTimeout(function () {
+                        
+                                var skBar1 = $('.skill');
+                                for (var i = 0; i < skBar1.length; i++) {
+                                  skBar1[i].childNodes[7].style.width = '70%';
+                                }
+                              }, 1000);
+                               setTimeout(function() {
+                                var perc=['90%','70%','60%','80%','90%','70%','60%','80%'];
+                        
+                                var skillbar= $('.skill-bar');
+                              for(var i=0;i<skillbar.length;i++){
+                                skillbar[i].childNodes[0].style.width=perc[i];
+                                }
+                               }, 2000);
+                            }
+                        
+                          </script>
+              </head>
+    <body>
+        <div class="row" style="margin-left:0px; margin-right:0px;">
+            <div class="col-sm-2" style="    background: #37474F;">
+                    <nav>
+                            <ul style='width:200px;text-align:center;'>
+                                <li style="
+                                text-align: center;"><img src="./images/graduationpic.png" class="rounded-circle handleImg" alt="Cinque Terre" width="200" height="200"></li>
+                              <li><a href="#section-1">Home</a></li>
+                              <li><a href="#section-2">About</a></li>
+                              <li><a href="#section-3">Achievements</a></li>
+                              <li><a href="#section-4" onclick="loadSkills();">Skills</a></li>
+                              <li><a href="#section-5">Education</a></li>
+                              <li><a href="#section-6">Experience</a></li>
+                              <li><a href="#section-8">Blog</a></li>
+                              <li><a href="#section-9">Contact</a></li>
+                              <li><a href="https://drive.google.com/open?id=1XjBOYYNihpeM9R02yksFAl4TpZYE8gld" target='new' ><i class="fa fa-download" aria-hidden="true"></i>Link to CV</a></li>
+                            </ul>
+                          </nav>
+                          <div class='sMedia'>
+                                <a  class="fa fa-facebook" href="https://www.facebook.com/RamJitendra.Josyula" target="new"></a>
+                                <a  class="fa fa-twitter" href="https://twitter.com/jitendrajosyula" target="new"></a>
+                                <a href="http://www.linkedin.com/in/jitendra-josyula" class="fa fa-linkedin" target="new"></a>
+                                <a  class="fa fa-instagram" href="http://www.instagram.com/jitendra5" target="new"></a>
+                                <a  class="fa fa-skype" href="http://www.skype.com/" target="new"></a>
+                              </div>
+
+            </div>
+            <div class="col-sm-10 rightDiv" style="    max-height: 100%;overflow: scroll;">
+                    <section id="section-0" style="">
+                            <h3>Jitendra Josyula</h3>
+                            <p class="myDesig">Software Engineer/ Salesforce Developer</p>
+                        </section>
+                      
+                        <section id="section-1" style="">
+                            <section class="slide-wrapper" style="padding: 0rem;margin: 0 0 0rem 0;">
+                                <div class=""> <!--container-->
+                                  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                        <!-- Indicators -->
+                                        <ol class="carousel-indicators">
+                                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                                            <li data-target="#myCarousel" data-slide-to="3"></li>
+                                        </ol>
+                            
+                                        <!-- Wrapper for slides -->
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <div class="fill"  style="width:100%;height:400px;">
+                                                    <div class="carousel-caption bounce">
+                                                        <h5 class="animated fadeInDown delay-1s">Hi, I am Jitendra.</h5>
+                                                        <p class="animated slideInUp delay-1s" style="color: black;">I am a software developer working on the salesforce cloud platform. I am a tech enthusiast with experience in web application development.
+                                                          I have a keen interest for cloud technologies like AWS and Salesforce. <br/><a href="https://drive.google.com/open?id=1XjBOYYNihpeM9R02yksFAl4TpZYE8gld" target='new' style='color:black;'><i class="fa fa-download" aria-hidden="true"></i> Download CV </a>
+                                                        </p>
+                                                      </div>
+                                                      <img class='animated pulse delay-1s' src='./images/jitendra.jpg' style="float:right;height: 212px;margin-right: 15%;  margin-top:3%  " />
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item ">
+                                                <div class="fill" style=" ">
+                                                    <div class="carousel-caption ">
+                                                        <h5 class="animated fadeInDown delay-1s">I supervised Jitendra for his Master thesis at Blekinge Institute of Technology. 
+                                                          Jitendra is a very organised and hard working person. 
+                                                            During several discussions with him, i noticed he has sound understanding of the software engineering practices and technologies.</h5>
+                                                        <p class="animated fadeInUpBig delay-1s" style="color: black;">- Muhammad Usman</p>
+                                                      </div>
+                      
+                                                      <img class='animated pulse delay-1s' src='./images/usmancircle.png' style="float: right;height: 212px;margin-right: 15%; margin-top:3%  "/>
+                                                </div> <!-- <img src='one.jpeg' style="width:100%;height:400px;"/>-->
+                                            </div>
+                                            <div class="carousel-item">
+                                                <div class="fill" style=" ">
+                                                    <div class="carousel-caption fadeInRight">
+                                                        <h5 class="animated fadeInDown delay-1s">I worked with Jitendra as one of their supervisors during their master's degree. 
+                                                          When conducting the work related to their thesis, they demonstrated that they are able to collaborate with other people, being good team players. 
+                                                          They also showed good skills to manage their on work and succeeded to deliver all the required things on time and with good quality.</h5>
+                                                        <p class="animated slideInUp delay-1s" style="color: black;">- Ricardo Britto</p>
+                                                        
+                                                      </div>
+                                                      <img class='animated pulse delay-1s' src='./images/ricardocircle.png' style="float:right;height: 212px;margin-right: 15%;  margin-top:3%   " />
+                                                </div><!--<img src='two.jpg' style="width:100%;height:400px;"/>-->
+                                            </div>
+                                            <div class="carousel-item">
+                                                <div class="fill" style="">
+                                                    <div class="carousel-caption fadeInLeft">
+                                                        <h5 class="animated fadeInDown delay-1s">Co-author of research article - <i>Software Practitioners’ Information Needs and Sources: A Survey Study</i> </h5>
+                                                        <p class="animated fadeInUpBig delay-1s" style="color: black;">- Conference: 9th International Workshop on Empirical Software Engineering in Practice, At Nara, Japan.</p>
+                                                      </div>
+                                                      <img class='animated pulse delay-1s' src='./images/apsec.jpg' style="float:right;height: 212px;margin-right: 9%; margin-top:3% " />
+                                                </div>
+                                            </div>
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </section>
+                        <section id="section-2" style="">
+                          <h1>About</h1>
+                          <p>
+                              Jitendra is a software engineer working at present in Cloudbyz, Bengaluru on the salesforce platform. He Graduated from Blekinge Institute of Technology (BTH-Sweden) in Software Engineering program and actively seeking for software developer positions.
+                              From his experience in IT, he has good knowledge of programming and software development.
+                              From his masters, he has a thorough knowledge of the Software Development Life Cycle methodologies like Agile, scrum, Pair programming, and Waterfall model, with focus on Implementation, Quality Assurance and testing of software applications. 
+                              Its his bachelors that laid the foundation for his programming and interpersonal skills.
+                              He is actively seeking for positions where he aspires to enhance his technical skills and add value to the organization.
+                          </p>
+                        </section>
+                        <section id="section-3" style="">
+                          <h1> Achievements</h1>
+                          <p>I had a Developer Associate certification from Amazon web services. Certificate of Merit in Bachelors from JNTU- Kakinada.</p>
+                          <div class="row">
+                              <div class="col-sm">
+                                  <img src="./images/pd1.png" alt="JNTUK" style="height: 130px;width: 180px" class="animated pulse delay-2s">
+                                </div>
+                                <div class="col-sm">
+                                    <img src="./images/admin.png" alt="JNTUK" style="height: 130px;width: 180px" class="animated pulse delay-2s">
+                                  </div>
+                                  <div class="col-sm">
+                                      <img src="./images/appbuilder.png" alt="JNTUK" style="height: 130px;width: 180px" class="animated pulse delay-2s">
+                                    </div>
+                            <div class="col-sm">
+                              <img src="./images/JNTUK.jpeg" alt="JNTUK" style="height: 130px;width: 180px" class="animated pulse delay-2s">
+                            </div>
+                            <div class="col-sm">
+                                <img src="./images/aws.jpg" alt="AWS" style="height: 130px;width: 180px" class="animated pulse delay-2s">
+                              </div>
+                              <div class="col-sm">
+                                    <img src="./images/ran.png" alt="trailhead" style="height: 130px;width: 180px" class="animated pulse delay-2s">
+                                  </div>
+                      
+                          </div>
+                        </section>
+                        <section id="section-4" style="">
+                                <h1>Skills</h1>
+                            <div class="parallaxSkill"></div>
+                          
+                          <p></p>
+                          <div class="">
+                            <div class=" row skills">
+                      
+                              <div class="col">
+                                <!-- skill -->
+                                <div class="skill">
+                                  <!-- title -->
+                                  <div class="skill-title">
+                                    Salesforce Apex, Visualforce Development
+                                  </div>
+                                  <!-- bar -->
+                                  <div class="skill-bar" data-bar="90"><span></span></div>
+                                </div>
+                                <!-- #skill -->
+                                <!-- skill -->
+                                <div class="skill">
+                                  <!-- title -->
+                                  <div class="skill-title">
+                                    Salesforce Lightning Development
+                                  </div>
+                                  <!-- bar -->
+                                  <div class="skill-bar" data-bar="70"><span></span></div>
+                                </div>
+                                <!-- #skill -->
+                                <!-- skill -->
+                                <div class="skill">
+                                  <!-- title -->
+                                  <div class="skill-title">
+                                        Python 
+                                  </div>
+                                  <!-- bar -->
+                                  <div class="skill-bar" data-bar="60"><span></span></div>
+                                </div>
+                                <!-- #skill -->
+                                <!-- skill -->
+                                <div class="skill">
+                                  <!-- title -->
+                                  <div class="skill-title">
+                                        HTML, CSS, Bootstrap, SLDS
+                                  </div>
+                                  <!-- bar -->
+                                  <div class="skill-bar" data-bar="80"><span></span></div>
+                                </div>
+                                <!-- #skill -->
+                              </div>
+                      
+                              <div class='col'>
+                                <!-- skill -->
+                                <div class="skill">
+                                  <!-- title -->
+                                  <div class="skill-title">
+                                    Javascript, jQuery
+                                  </div>
+                                  <!-- bar -->
+                                  <div class="skill-bar" data-bar="90"><span></span></div>
+                                </div>
+                                <!-- #skill -->
+                                <!-- skill -->
+                                <div class="skill">
+                                  <!-- title -->
+                                  <div class="skill-title">
+                                    AWS, Salesforce Platform
+                                  </div>
+                                  <!-- bar -->
+                                  <div class="skill-bar" data-bar="70"><span></span></div>
+                                </div>
+                                <!-- #skill -->
+                                <!-- skill -->
+                                <div class="skill">
+                                  <!-- title -->
+                                  <div class="skill-title">
+                                        GIT, Jenkins, Salesforce DX. 
+                                  </div>
+                                  <!-- bar -->
+                                  <div class="skill-bar" data-bar="60"><span></span></div>
+                                </div>
+                                <!-- #skill -->
+                                <!-- skill -->
+                                <div class="skill">
+                                  <!-- title -->
+                                  <div class="skill-title">
+                                        MySQL, Oracle Database
+                                  </div>
+                                  <!-- bar -->
+                                  <div class="skill-bar" data-bar="80"><span></span></div>
+                                </div>
+                                <!-- #skill -->
+                              </div>
+                            </div>
+                          </div>
+                        </section>
+                        <section id="section-5" style="">
+                                <h1>Education</h1>
+                            <div class="parallaxEdu"></div>
+                          
+                          <div class="accordion" id="accordionExample">
+                            <div class="card">
+                              <div class="card-header" id="headingOne">
+                                <h5 class="mb-0">
+                                  <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+                                    aria-expanded="true" aria-controls="collapseOne">
+                                    Masters in Software Engineering
+                                  </button>
+                                </h5>
+                              </div>
+                      
+                              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <div class="row">
+                                  <div class="col-sm-10">As a student at BTH, I was doing my research study on Global Software Engineering, 
+                                    Agile methodologies, Software Metrics and Advanced Software Project Management.
+                                  </div>
+                                  <div class="col-sm-2 flip-card" >
+                                    <div class="flip-card-inner">
+                                      <div class="flip-card-front">
+                                        <img src="./images/BTH-loggo.jpg" alt="Avatar" style="width:100%;height:200px;">
+                                      </div>
+                                      <div class="flip-card-back">
+                                        <h1>BTH Sweden</h1>
+                                        <p>M.S. Software Engineering</p>
+                                        <p>2015-2017</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                      
+                      
+                            <div class="card">
+                              <div class="card-header" id="headingTwo">
+                                <h5 class="mb-0">
+                                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo"
+                                    aria-expanded="false" aria-controls="collapseTwo">
+                                    Bachelors in Computer Science and Engineering
+                                  </button>
+                                </h5>
+                              </div>
+                              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                <div class="card-body">
+                                  <div class="row">
+                                  <div class='col-sm-10'>Working with core and Advanced java programming, learning Web Development and attending workshops on Cyber Forensics,
+                                     Robotics , Hacking, Network implementation and security and Android App Development at IIT's and NIT's in India was accomplished during my bachelors. 
+                                     Also, volunteered 'ZEITGEIST-2013' a technical festival at JNTUK. Attended an awareness program on Entrepreneurship and a 
+                                     Swedish project called 'International Students' at JNTUK.
+                                  </div>
+                                  <div class="col-sm-2 flip-card" >
+                                    <div class="flip-card-inner">
+                                      <div class="flip-card-front" >
+                                        <img src="./images/JNTUK.jpg" alt="Avatar" style="width:100%;height:200px;">
+                                      </div>
+                                      <div class="flip-card-back">
+                                        <h1>JNTU-Kakinada</h1>
+                                        <p>Bachelors in Computer Science.</p>
+                                        <p>2011-2015</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                      
+                      
+                            <div class="card">
+                              <div class="card-header" id="headingThree">
+                                <h5 class="mb-0">
+                                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree"
+                                    aria-expanded="false" aria-controls="collapseThree">
+                                    Schooling and Intermediate Education
+                                  </button>
+                                </h5>
+                              </div>
+                              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                <div class="card-body">
+                                  I did my schooling from Gudivada, Andhra Pradesh. I finished my Intermediate education with Mathematics, Physics and Chemistry as majors with an aggregate of 95%.
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </section>
+                        <section id="section-6" style="">
+                            <h1>Work Experience</h1>
+                            <div class="container">
+                               
+                                <ul class="timeline">
+                                  <li>
+                                    <div class="timeline-badge"><img src="./images/cbyz.png"/></div>
+                                    <div class="timeline-panel">
+                                      <div class="timeline-heading">
+                                        <h4 class="timeline-title">Cloudbyz</h4><i>Bengaluru, India.</i>
+                                        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> August 2018 to Present</small></p>
+                                      </div>
+                                      <div class="timeline-body">
+                                        <!--p>CLOUDBYZ is a product based company works natively on Salesforce.com platform, that offers comprehensive solutions in life sciences, clinical trails management.</p-->
+                                        <p>Working as a Software engineer, on the full salesforce stack for developing the features of Clinical Trails Management System application. </p>
+                                      </div>
+                                    </div>
+                                  </li>
+                                  <li class="timeline-inverted">
+                                      <img src="./images/traveltekfull.jpg" style='width: 45%;margin: 18px auto;'/>
+                                    <div class="timeline-badge"> <img src="./images/travelteklogo.jpg"/></div>
+                                    <div class="timeline-panel">
+                                      <div class="timeline-heading">
+                                        <h4 class="timeline-title">Traveltek</h4><i>Hyderabad, India.</i>
+                                        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> May 2017 to July 2018</small></p>
+                                      </div>
+                                      <div class="timeline-body">
+                                        <p>Worked as web developer, for customizing and developing the TravelDashboards (isell, itour) which is an online travel service booking portal.</p>
+                                      
+                                      </div>
+                                    </div>
+                                  </li>
+                                  <li>
+                                    <div class="timeline-badge"><img src="./images/opr.svg" style="width: 300px;"></div>
+                                    <div class="timeline-panel">
+                                      <div class="timeline-heading">
+                                        <h4 class="timeline-title">One Planet Rating</h4><i>Stockholm, Sweden.</i>
+                                        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> Feb 2017 to April 2017</small></p>
+                                      </div>
+                                      <div class="timeline-body">
+                                        <p>Worked as Intern front-end developer, for developing a portal that allows users to rate travel/tourism service providers.</p>
+                                      </div>
+                                    </div>
+                                  </li>
+                                  <li class="timeline-inverted">
+                                      <img src="./images/softhousefull.png" style='width: 45%;margin: 34px auto; margin-left: -6%;'/>
+                                      <div class="timeline-badge"> <img src="./images/sflogo.png" style='margin-left: -54%;'/></div>
+                                    <div class="timeline-panel">
+                                      <div class="timeline-heading">
+                                        <h4 class="timeline-title">Softhouse</h4><i>Karlskrona, Sweden.</i>
+                                        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> October 2016 to December 2016</small></p>
+                                      </div>
+                                      <div class="timeline-body">
+                                        <p>Worked as an industrial Trainee for developing an academic examination portal. </p>
+                                      </div>
+                                    </div>
+                                  </li>
+                                  
+                                </ul>
+                              </div>
+                        </section>
+                        
+                        <section id="section-8" style="">
+                          <h1>Blog</h1>
+                          
+                          <p> Fell free to refer to my technical blogs on salesforce.</p>
+                          <div class="row">
+                           
+                              <div class="col-sm">
+                                 
+                      
+                                    <div class="card" style="width:18rem;margin:0px auto;">
+                                        <img class="card-img-top" src="./images/slackforce.jpeg" alt="Card image" style="width:100%;height:200px;">
+                                        <div class="card-body">
+                                            <h5 class="card-title"><i class="fa fa-rss" aria-hidden="true" style="color: #a870dc;"></i>Slack and Salesforce</h5>
+                                            <p class="card-text">How to integrate slack and salesforce?</p>
+                                            <a href="https://jitendraaboutsalesforce.blogspot.com/2018/12/slack-and-salesforce-integration.html" class="" target="new">Learn More</a>
+                                        </div>
+                                      </div>
+                      
+                              </div>
+                              <div class="col-sm">
+                                
+                      
+                                    <div class="card" style="width:18rem;margin:0px auto;">
+                                        <img class="card-img-top" src="./images/leaderboard.png" alt="Card image" style="width:100%;height:200px;">
+                                        <div class="card-body">
+                                            <h5 class="card-title"><i class="fa fa-rss" aria-hidden="true" style="color: #a870dc;"></i>Salesforce Leaderboards</h5>
+                                            <p class="card-text">How to aggregate all the trailhead profiles in one place?</p>
+                                          <a href="https://jitendraaboutsalesforce.blogspot.com/2018/11/trailhead-profile-tracker-aggregate-all.html" class="" target="new">Learn More</a>
+                                        </div>
+                                      </div>
+                      
+                                
+                              
+                            </div>
+                            <div class="col-sm">
+                                <div class="card" style="width:18rem;margin:0px auto;">
+                                    <img class="card-img-top" src="./images/blogger.jpg" alt="Card image" style="width:100%;height:200px;">
+                                    <div class="card-body">
+                                        <h5 class="card-title"><i class="fa fa-rss" aria-hidden="true" style="color: #a870dc;"></i>New Post</h5>
+                                      <p class="card-text">New posts will be updated on a monthly basis.</p>
+                                      <a href="#" class="">New Post</a>
+                                    </div>
+                                  </div>
+                      
+                              
+                            
+                          </div>
+                          
+                            </div>
+                        </section>
+                        <section id="section-9" style="">
+                          <h1>Contact</h1>
+                          <div class="row" >
+                            <div class="col-sm-5">
+                              <p>
+                      
+                      Feel free to get in touch with me. I am always open to discussing new projects, creative ideas or opportunities to be part of your visions.
+                              </p>
+                                <p><i class="fa fa-user" aria-hidden="true"></i>Jitendra Josyula,<br/>
+                                <i class="fa fa-address-book-o" aria-hidden="true"></i>HSR Layout, Bengaluru, India.<br/>
+                                <i class="fa fa-envelope" aria-hidden="true"></i>jitendra.jjr@gmail.com.<br/>
+                                <i class="fa fa-skype" aria-hidden="true" style="color:black;background:white;"></i>jithendra93<br/>
+                                <i class="fa fa-phone" aria-hidden="true"></i>+91 7995882745<br/>
+                                <i class="fa fa-github" aria-hidden="true"></i>https://github.com/jitendra5<br/>
+                                <i class="fa fa-linkedin" aria-hidden="true" style="color:black;background:white;"></i>www.linkedin.com/in/jitendra-josyula<br/>
+                                <i class="fa fa-rss" aria-hidden="true"></i>http://jitendraaboutsalesforce.blogspot.com/
+                                
+                      
+                            </div>
+                            <div class="col-sm-7">
+                              <img src='./images/bangalore.png' style="width:100%">
+                      
+                              </div>
+                      
+                          </div>
+                        </section>
+                       
+                        
+            </div>
+            
+        </div>
+       
+               
+                <script type="text/javascript">
+                  $(".skills").addClass("active")
+                  $(".skills .skill .skill-bar span").each(function () {
+                    $(this).animate({
+                      "width": $(this).parent().attr("data-bar") + "%"
+                    }, 1000);
+                    $(this).append('<b>' + $(this).parent().attr("data-bar") + '%</b>');
+                  });
+                  setTimeout(function () {
+                    $(".skills .skill .skill-bar span b").animate({ "opacity": "1" }, 1000);
+                  }, 2000);
+                </script>
+              
+                
+    </body>
+</html>
